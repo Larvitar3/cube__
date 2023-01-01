@@ -1,0 +1,155 @@
+* {
+            margin: 0;
+            padding: 0;
+            margin: 0 auto;
+        }
+
+        ul,li {
+            list-style: none;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+
+        #wrap{
+            width: 1920px;
+            margin: 0 auto;
+        }
+        #header{
+            width: 1600px;
+            height: 120px;
+            border-bottom: 1px solid #ccc;
+        }
+        #logo{
+            float: left;
+        }
+        #logo img{
+            width: 130px;
+            height: 130px;
+            padding-top: 20px;
+            float: left;
+            box-sizing: border-box;
+        }
+        #nav ul{
+            padding-top: 70px;
+            display: flex;
+        }
+        #nav li a{
+            font-size: 19px;
+            font-weight: 900;
+            color: #999;
+        }
+        /* contents */
+        #contents{
+            width: 1600px;
+            margin-top: 20px;
+        }
+        #image{
+            width: 100%;
+            height: 600px;
+            border: 1px solid #000;
+            background-size: 100%;
+            position: relative;
+        }
+        #image .imageBox{
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+        }
+
+        #image .imageBox ul{
+            width: 100%;
+            position: relative;
+        }
+        #image .imageBox ul li{
+            width: 100%;
+            height: 600px;
+            object-fit: contain;
+            position: absolute;
+        }
+        #image .imageBox ul li img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        #image .imageBox ul li.img1{
+            top: 0;
+            left: 0;
+        }
+        #image .imageBox li.img2{
+            top: 0;
+            left: 100%;
+        }
+        #image .imageBox li.img3{
+            top: 0;
+            left: 200%;
+        }
+        #mainContent{
+        	width :  100%;
+        	height : 1500px;
+        }
+        
+        /* footer */
+        #footer{
+            width: 1600px;
+            height: 155px;
+            display: flex;
+            align-items: center;
+            background-color: #888;
+            margin-top: 20px;
+            
+        }
+        #endLogo{
+            width: 150px;
+            float: left;
+            margin-left: 70px;
+        }
+        #endLogo img{
+            width: 130px;
+            height: 130px;
+        }
+
+        #endAbout{
+            width: 1050px;
+            display: flex;
+            flex-direction: column;       
+        }
+        #endAbout .address{
+            margin-left: 50px;
+            color: #fff;
+        }
+        #endAbout .aboutUl{
+            float: left;
+        }
+        #endAbout ul{
+            display: flex;
+            margin-left: 50px;
+            padding-bottom: 30px;
+        }
+        #endAbout ul li{
+            margin-right: 15px;
+            
+        }
+        #endAbout ul li a{
+            font-weight: 600;
+            text-decoration-line: underline;
+            color: #fff;
+        }
+
+        #endSNS{
+            width: 400px;
+            height: 100%;
+        }
+
+        #endSNS ul{
+            display: flex;
+            margin-top: 60px;
+        }
+        #endSNS ul li{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
